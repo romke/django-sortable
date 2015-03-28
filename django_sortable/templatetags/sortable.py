@@ -7,7 +7,7 @@ register = template.Library()
 
 SORT_ASC_CLASS = getattr(settings, 'SORT_ASC_CLASS' , 'sort-asc')
 SORT_DESC_CLASS = getattr(settings, 'SORT_DESC_CLASS' , 'sort-desc')
-SORT_NONE_CLASS = getattr(settings, 'SORT_DESC_CLASS' , 'sort-none')
+SORT_NONE_CLASS = getattr(settings, 'SORT_NONE_CLASS' , 'sort-none')
 
 directions = {
   'asc': {'class': SORT_ASC_CLASS, 'inverse': 'desc'}, 
